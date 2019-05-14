@@ -1,0 +1,161 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://skhro87.github.io/homeatirfa"
+languageCode = "en-AU"
+title = "Home at Irfa"
+
+# Metadata
+[params]
+  author = "Home at Irfa"
+  description = "hostel"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/airbnb1.jpg"
+  title = "Home at Irfa"
+  description = ""
+
+# Navigation section
+[params.nav]
+  mission = "Rooms"
+  services = "Feel at Home"
+  team = "Team"
+  contact = "Book Now"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/airbnb2.jpg"
+    [[params.mission.images.list]]
+      img = "images/airbnb3.jpg"
+    [[params.mission.images.list]]
+      img = "images/airbnb4.jpg"
+    [[params.mission.images.list]]
+      img = "images/airbnb5.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "room1"
+    title = "Room 1"
+    subtitle = "This is our first room."
+    description = "<p>This room is super nice</p><ul class='checked'><li>2 Beds</li><li>Private Bath</li><li>Chris's mum</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>book now</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "room2"
+    title = "Room 2"
+    subtitle = "Our second room."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>electric light</li><li>shared bath</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>book now</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Feel at Home at Irfa"
+  description = "We help you to make your stay truely great!"
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Welcome present"
+    description = "we give you a small present"
+
+  [[params.services.item]]
+    icon = "icon-map"
+    title = "Navigation"
+    description = "we help you navigate around"
+
+  [[params.services.item]]
+    icon = "icon-sun"
+    title = "Sights"
+    description = "we can tell you what's worth to visit"
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Backyard"
+    subtitle = "you can chill here"
+    img = "images/airbnb2.jpg"
+
+  [[params.work.item]]
+    title = "Living room"
+    subtitle = "you can chill here"
+    img = "images/katze2.jpg"
+
+  [[params.work.item]]
+    title = "Living room"
+    subtitle = "you can chill here"
+    img = "images/katze3.jpg"
+
+  [[params.work.item]]
+    title = "Living room"
+    subtitle = "you can chill here"
+    img = "images/katze4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "We are all cool."
+
+  [[params.team.item]]
+    name = "Irfa"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+#    twitter = "#"
+#    dribbble = "#"
+    instagram = "#"
+#    github = "#"
+#    linkedin = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Chris"
+    position = "Chief overlord"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person2.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+#    twitter = "#"
+#    dribbble = "#"
+    instagram = "#"
+#    github = "#"
+    whatsapp = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Book Now!"
+  message = "Book a room now! Send us an email using the form below or contact us on one of our channels! <br/><a href='http://www.facebook.com/homeatirfa'>Facebook</a><br/><a href='http://www.instagram.com/homeatirfa'>Instagram</a>"
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = ""
+#  github = "#"
+#  twitter = "#"
+  facebook = "http://www.facebook.com/homeatirfa"
+#  vine = "#"
+#  linkedin = "#"
+  instagram = "http://www.instagram.com/irfa"
+  
